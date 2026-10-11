@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-pdf-downloader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.14",
+    "dotenv": "^18.0.7",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "ssh2-sftp-client": "^12.1.1"
+  }
+}
